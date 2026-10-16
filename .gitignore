@@ -1,0 +1,13 @@
+# Xcode & Cocoa
+.DS_Store
+*/build/
+build/
+*.xcarchive
+*.ipa
+DerivedData/
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# XcodeGen outputs (can be regenerated)
+*.xcodeproj

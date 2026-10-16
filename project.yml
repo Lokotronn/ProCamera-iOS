@@ -1,0 +1,30 @@
+name: ProCamera
+options:
+  bundleIdPrefix: com.procamera
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+
+settings:
+  SWIFT_VERSION: "5.9"
+  IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+  ENABLE_BITCODE: "NO"
+  ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: "YES"
+
+targets:
+  ProCamera:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: ProCameraApp
+    info:
+      path: ProCameraApp/App/Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.procamera.studio
+      INFOPLIST_FILE: ProCameraApp/App/Info.plist
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      CODE_SIGNING_ALLOWED: NO
+      CODE_SIGNING_REQUIRED: NO
+      CODE_SIGN_IDENTITY: ""
+      DEVELOPMENT_TEAM: ""
